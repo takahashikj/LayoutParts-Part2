@@ -2,3 +2,113 @@
 
 /* カード内の画像は以下のURLを使用して下さい */
 /* https://picsum.photos/id/1005/200/300 */
+.green--box {
+  width: 200px;
+  height: 200px;
+  background: #76ff826b;
+  margin: 0 auto;
+}
+.fade-in {
+  animation: fade-in 4s;
+  animation-fill-mode: forwards;
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.fade-out {
+  animation: fade-out 4s;
+  animation-fill-mode: forwards;
+}
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.rotation{
+animation: rotation 4s linear infinite;
+animation-fill-mode: forwards;
+}
+@keyframes rotation{
+  0%{ transform:rotate(0);}
+  100%{ transform:rotate(360deg); }
+}
+.blue-box {
+  width: 200px;
+  height: 200px;
+  background: #331aefd0;
+  margin: 0 auto;
+  transition: 0.5s;
+}
+.hover-color:hover{
+background: #ff27e2c9;
+}
+.hover-box:hover {
+  transform: rotate(360deg);
+}
+.hover-up:hover {
+  transform: translateY(-20%);
+}
+.hover-right:hover {
+  transform: translateX(20%);
+}
+.hover-right:hover {
+  transform: translateX(20%);
+}
+.hover-vertical:hover {
+  height: 300px;
+}
+.hover-beside:hover {
+  width: 500px;
+}
+.hover-border:hover {
+border: 10px #00ffe5 solid;
+box-sizing: border-box;
+}
+.hover-shadow:hover {
+box-shadow: 8px 11px 10px 3px #06031ed0;;
+  }
+  .road {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: solid 10px #ecf1f2;
+  border-top: solid 10px #14ff4bcd;
+  animation: rotation 1.1s linear infinite;
+  margin: 0 auto;
+  }
+  .logo {
+    width:  150px;
+    height: 150px;
+    border-radius: 50%;
+    background: url(https://picsum.photos/id/1005/200/300) no-repeat center/cover;
+    margin: 0 auto;
+  }
+  .card-box:hover {
+  box-shadow: 0px 0px 10px 3px #424242d0;
+  z-index: 1;
+  }
+.card {
+display: flex;
+justify-content: center;
+  }
+  .card-box {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #000000;
+  background: #ffffff;
+  border-left: 0;
+  }
+  .card-box:first-child {
+    border-left:1px solid #000000;
+  }
+.card-box p{
+  margin-top: 20px;
+  }

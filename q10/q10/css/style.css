@@ -1,1 +1,85 @@
 @charset "UTF-8";
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.button{
+  padding:0 15px;
+  line-height: 50px;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 30px;
+  border-radius: 10px;
+}
+.red-button {
+  color: #fff;
+  background: #fd0f0fd9;
+}
+
+.blue-button {
+  color: #fff;
+  background: #170ffdd9;
+}
+
+.green-button {
+  color: #000;
+  background: #0ffd0fd9;
+}
+.red-shadow{
+  color: #fff;
+  background: #fd0f0fd9;
+  box-shadow:  0 10px 0 rgba(63, 5, 5, 0.851);
+}
+.blue-shadow{
+  color: #fff;
+  background: #170ffdd9;
+  box-shadow:  0 10px 0 rgba(5, 13, 63, 0.851);
+}
+.green-shadow{
+  color: #000;
+  background: #0ffd0fd9;
+  box-shadow:  0 10px 0 rgba(5, 63, 5, 0.851);
+}
+.red-shadow2{
+  color: #fff;
+  background: #fd0f0fd9;
+  box-shadow:  0 10px 0 rgba(63, 5, 5, 0.851);
+}
+.blue-shadow2{
+  color: #fff;
+  background: #170ffdd9;
+  box-shadow:  0 10px 0 rgba(5, 13, 63, 0.851);
+}
+.green-shadow2{
+  color: #000;
+  background: #0ffd0fd9;
+  box-shadow:  0 10px 0 rgba(5, 63, 5, 0.851);
+}
+.red-shadow2:active,.blue-shadow2:active,.green-shadow2:active{
+box-shadow: none;
+transform: translateY(10px);
+}
+.button1{
+  color: #67c5ff;
+  border:double 4px  #75caff;
+}
+.button1:hover{
+background-color: #fffbef;
+}
+.button2{
+  color: #67c5ff;
+  border:dotted 4px  #75caff;
+}
+.button2:hover{
+border-style: dashed;
+}
+.button3{
+  color: #0079a5f8;
+  background-color: #d0edfff8;
+  border:dashed 4px  #67c5ff;
+}
+.button3:hover{
+border-style: dashed 4px  #67c5ff;
+background-color: #ffffff;
+}
